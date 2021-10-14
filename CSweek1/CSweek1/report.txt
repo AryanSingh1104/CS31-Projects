@@ -1,5 +1,0 @@
-1. For the first input "How many students were surveyed? " I put in 50. Then for both the variables int likeInPerson and int likeAtHome i provided the input 200. The output of the program says "400.0% prefer being at school in person." and "400.0% prefer doing school from home." This gives the nonsensical result as the percentage of people can not add up more than 100%.
-
-2. In line 25 of logic_error.cpp, I changed "double pctLikeInPerson = 100.0 * likeInPerson / numberSurveyed;" to "double pctLikeInPerson = 1000.0 * likeInPerson / numberSurveyed;" which leads to a succesful build but unreasonable outputs.
-
-3. In line 18, I removed the semicolon from line 18,"cout << "How many students were surveyed?;", giving the error "Expected ';' after expression". Secondly, I changed 'pctLikeInPerson' to 'pctlikeInPerson' in line 25. Giving the error "Use of undeclared identifier 'pctLikeInPerson'; did you mean 'pctlikeInPerson'?". Both of these errors prevent XCode from building the file.

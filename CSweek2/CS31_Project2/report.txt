@@ -1,0 +1,12 @@
+1. A few problems that I encountered while doing project 2 was converting the output into scientific notation with 2 deccimal places to the right. I refered back to the notes to look for "cout.setf(ios::fixed);cout.precision(2);". Later on I encountered the problem of my decimal places being rounded off. This took me debugging the lines where I finally found out that I had declared Variables having decimals with "int" instead of "double"
+
+2.  To check for the first 100 miles (0,80,4,Aryan,y,4)
+    To check for 100-400 miles (100,460,70,Samarth,n,8)
+    To check for 400 miles (4,404,4,xyz,n,4)
+    To check for Luxury cars at 500 miles (0,500,8,abc,y,12)
+    To check for beyond 500 miles and high number of days (123,1200,70,abc,n,1)
+    Checking if Customer Name is an empty string (0,12,1,,n,1)
+    Checking if Luxury Status is not y or n (0,100,4,Jacob,Y,3)
+    Odometer Reading is less than the starting reading (100,80,5,Justin,n,8)
+    
+    
